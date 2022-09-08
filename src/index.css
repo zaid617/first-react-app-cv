@@ -5,9 +5,9 @@
 
 .body {
     display: flex;
+    width: 100%;
     border: 5px solid black;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    overflow-x: hidden;
 }
 
 section {
@@ -17,9 +17,8 @@ section {
     align-items: center;
     justify-content: space-evenly;
     color: #1f2438;
-    background-color: #66fcf1;
-    border: 5px solid #000000;
-    border-radius: 28px;
+    background-color: #1f2833;
+    border: 5px solid #66fcf1;
     padding: 10px;
     margin: 5px;
 }
@@ -66,6 +65,7 @@ aside {
 }
 
 .perso {
+    width: 90%;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
